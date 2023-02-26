@@ -169,7 +169,7 @@ button:active {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(265px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(275px, auto));
     gap: 20px;
 }
 
