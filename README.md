@@ -3,10 +3,10 @@
 ## Admin Dashboard Project
 
 Live Demo:
-<a href="">Admin Dashboard</a>
+<a href="https://curveservices.github.io/dashboard/" target="blank_">Admin Dashboard</a>
 
 PC View:
-<img>
+<img width="1137" alt="dashboard" src="https://user-images.githubusercontent.com/101556296/221431392-77596deb-68ef-47a0-ae47-39d662ded89a.png">
 
 ## Overview 
 
