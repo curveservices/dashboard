@@ -120,7 +120,7 @@ input {
 .actions {
     display: flex;
     align-items: flex-end;
-    justify-content:space-evenly;
+    justify-content: space-between;
     padding-top: 10px;
 }
 
@@ -131,15 +131,18 @@ button {
     background: var(--sidebar-background);
     color: white;
     border: none;
-    transition: transform .3s ease-in-out;
+    transition: transform .1s ease-in-out;
 }
 
-button:hover{
-    transform: scale(1.25);
+button:hover {
+    box-shadow: 2px 2px 2px 0px #000000;
+    transform: scale(1.1);
     background: var(--orange-color);
 }
+
 button:active {
     box-shadow: inset 0px 1px 4px 1px #000000;
+    transform: scale(1.05);
 }
 /* heading styles end */
 
@@ -181,7 +184,7 @@ button:active {
     box-shadow: var(--box-shadow);
     margin: 0px 10px;
     border-radius: 15px;
-    transition: transform .3s ease-in-out;
+    transition: transform .2s ease-in-out;
 }
 .card:hover,
 .exercise-heading:hover {
