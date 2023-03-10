@@ -2,10 +2,10 @@
 
 ## Admin Dashboard Project
 
-Live Demo:
+### Live Demo: :point_down
 <a href="https://curveservices.github.io/dashboard/" target="blank_">Admin Dashboard</a>
 
-PC View: 
+### PC View: 
 <img width="1137" alt="dashboard" src="https://user-images.githubusercontent.com/101556296/221431392-77596deb-68ef-47a0-ae47-39d662ded89a.png">
 
 ## Overview 
@@ -33,4 +33,4 @@ Using only CSS grid for styling.
 
 - Make it Responsive
 
-Rozla-Dev 2023-02-26
+***Rozla-Dev __2023-02-26***
