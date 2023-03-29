@@ -1,16 +1,13 @@
-# Dashboard
+# Project: Dashboard
 
-## Admin Dashboard Project
+### Live Demo:point_right: <a href="https://curveservices.github.io/dashboard/" target="blank_">Admin Dashboard Project</a>
 
-### Live Demo:point_down:
-<a href="https://curveservices.github.io/dashboard/" target="blank_">Admin Dashboard</a>
-
-### PC View
+### PC View :point_down:
 <img width="1137" alt="dashboard" src="https://user-images.githubusercontent.com/101556296/221431392-77596deb-68ef-47a0-ae47-39d662ded89a.png">
 
 ## Overview 
 
-This project <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard">Admin Dashboard</a> part of the Itermediate HTLM and CSS course was created as part of the carriculum for <a href="https://www.theodinproject.com/">The Odin Project</a>. Every objective has been met and I have expanded on this to make it functional and user friendly.
+<a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard"> Project admin dashboard</a>was set as part of the Itermediate HTLM and CSS course from the carriculum for <a href="https://www.theodinproject.com/">The Odin Project</a>. Every objective has been met and I have expanded on this to make it functional and user friendly.
 
 Using only CSS grid for styling.
 
