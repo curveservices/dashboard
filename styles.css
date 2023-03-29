@@ -81,11 +81,16 @@ ul {
     background: white;
     padding: 20px;
     border-bottom: 1px solid rgb(86, 86, 86);
+    color: black;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.header a {
+    color: black;
 }
 
 .search {
