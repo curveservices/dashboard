@@ -271,7 +271,7 @@ button:active {
 
 a:hover {
     color: var(--orange-color);
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 hr {
     border:1px solid var(--orange-color);
