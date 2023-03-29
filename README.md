@@ -33,4 +33,4 @@ Using only CSS grid for styling.
 
 - Make it Responsive
 
-***Rozla-Dev __2023-02-26***
+***Rozla-Dev 2023-02-26***
