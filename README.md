@@ -38,10 +38,10 @@ Using only CSS grid for styling.
           
 
 
-***<a href="https://twitter.com/Crypto_Rozla"> Rozla-Dev </a> 26-02-2023***
+***<a href="https://twitter.com/Crypto_Rozla">Rozla-Dev </a> 26-02-2023***
 
 
-[Back to top 👆](#project)
+[Back to top 👆](#project-dashboard)
 
 
 
