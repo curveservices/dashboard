@@ -12,31 +12,8 @@
 <body>
     <div class="container">
 
-        <!-- sidebar -->
-        <div class="sidebar">
-            <div class="side-title">
-                <img class="dash-image" src="./assets/icons/dashboard_white_24dp.svg" alt="Dashboard icon">Dashboard</div>
-            <div class="mainlist">
-                <ul class="side-list">
-                    <a href="#"><li><img src="./assets/icons/home_white_24dp.svg" alt="Home icon"> Home</li></a>
-                    <a href="#"><li><img src="./assets/icons/account_box_white_24dp.svg" alt="profile icon"> Profile</li></a>
-                    <li><img src="./assets/icons/textsms_white_24dp.svg" alt="message icon"> Messages</li>
-                    <li><img src="./assets/icons/watch_later_white_24dp.svg" alt="History icon"> History</li>
-                    <li><img src="./assets/icons/task_white_24dp.svg" alt="Task icon"> Task</li>
-                    <li><img src="./assets/icons/groups_white_24dp.svg" alt="groups icon"> Communities</li>
-                </ul>
-            </div>
-            <div class="settings-list">
-                <ul class="side-settings">
-                    <li><img src="./assets/icons/settings_white_24dp.svg" alt="settings icon"> Settings</li>
-                    <li><img src="./assets/icons/help_center_white_24dp.svg" alt=""> Support</li>
-                    <li><img src="./assets/icons/verified_user_white_24dp.svg" alt="Privacy icon"> Privacy</li>
-                </ul>
-            </div>
-        </div>
-        
         <!-- header-search bar -->
-        <div class="header">
+        <header class="header">
             <form class="search">
                 <label for="search-box"><img src="./assets/icons/search-outline.svg" alt="search-icon" width="24"></label>
                 <input list="search-hints" type="search" name="search-bax" id="search-box" placeholder="  Search..." autocomplete="off">
@@ -58,13 +35,36 @@
                 <button>Upload</button>
                 <button>Share</a></button>
             </div>     
-        </div>
+        </header>
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <div class="side-title">
+                <img class="dash-image" src="./assets/icons/dashboard_white_24dp.svg" alt="Dashboard icon">Dashboard</div>
+            <div class="mainlist">
+                <ul class="side-list">
+                    <a href="#"><li><img src="./assets/icons/home_white_24dp.svg" alt="Home icon"> Home</li></a>
+                    <a href="#"><li><img src="./assets/icons/account_box_white_24dp.svg" alt="profile icon"> Profile</li></a>
+                    <li><img src="./assets/icons/textsms_white_24dp.svg" alt="message icon"> Messages</li>
+                    <li><img src="./assets/icons/watch_later_white_24dp.svg" alt="History icon"> History</li>
+                    <li><img src="./assets/icons/task_white_24dp.svg" alt="Task icon"> Task</li>
+                    <li><img src="./assets/icons/groups_white_24dp.svg" alt="groups icon"> Communities</li>
+                </ul>
+            </div>
+            <div class="settings-list">
+                <ul class="side-settings">
+                    <li><img src="./assets/icons/settings_white_24dp.svg" alt="settings icon"> Settings</li>
+                    <li><img src="./assets/icons/help_center_white_24dp.svg" alt=""> Support</li>
+                    <li><img src="./assets/icons/verified_user_white_24dp.svg" alt="Privacy icon"> Privacy</li>
+                </ul>
+            </div>
+        </aside>
         
         <!-- main-projects -->
 
         <div class="main">
         
-            <div class="project-display">
+            <article class="project-display">
                 <div class="project-heading">My Projects</div>
                 <div class="projects">
 
@@ -158,162 +158,158 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </article>
             <!-- main js execises -->
             <div class="exersices">
-                <div class="js-section">
+                <article class="js-section">
                     <div class="project-heading">Javascript Exercises</div>
                     <div class="exercise-container">
 
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/12_findTheOldest" target="blank_">
-                                <h3>Find The Oldest</h3></a>
+                            <h3>Find The Oldest</h3></a>
                             <p>An array returning the oldest people</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/blob/main/javascript_exercises/11_getTheTitles/getTheTitles.js" target="blank_">
-                                <h3>Get the titles</h3></a>
-                             <p>Get book titles from an array </p>
+                            <h3>Get the titles</h3></a>
+                            <p>Get book titles from an array </p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/10_fibonacci" target="blank_">
-                                <h3>Fibonacci</h3></a>
+                            <h3>Fibonacci</h3></a>
                             <p>Returns a specific member of Fibonacci sequence</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/09_palindromes" target="blannk_">
-                                <h3>Palindromes</h3></a>
+                            <h3>Palindromes</h3></a>
                             <p>Determines a given string is a palindrome</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/08_calculator" target="_blank">
-                                <h3>Calculator</h3></a>
+                            <h3>Calculator</h3></a>
                             <p>Basic calculator functions</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/07_tempConversion" target="blank_">
-                                <h3>Temperature Conversion</h3></a>
+                            <h3>Temperature Conversion</h3></a>
                             <p>Temperatures Fahrenheit/Celsius conversion</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/06_leapYears" target="blank_">
-                                <h3>Leap Year</h3></a>
+                            <h3>Leap Year</h3></a>
                             <p>Determines whether given year is a leap year</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/05_sumAll" target="blank_">
-                                <h3>Sum All</h3></a>
+                            <h3>Sum All</h3></a>
                             <p>Take 2 integers and return the sum of every number</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/04_removeFromArray" target="blank_">
-                                <h3>Remove from Array</h3></a>
+                            <h3>Remove from Array</h3></a>
                             <p>Remove a specific value from an array</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/03_reverseString" target="blank_">
-                                <h3>Reverse String</h3></a>
+                            <h3>Reverse String</h3></a>
                             <p>Reverse a string</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/02_repeatString" target="blank_">
-                                <h3>Repeat String</h3></a>
+                            <h3>Repeat String</h3></a>
                             <p>Repeats a string a number of times</p>
                         </div>
                         <hr>
                         <div class="exercise-heading">
                             <a href="https://github.com/curveservices/odin-project/tree/main/javascript_exercises/01_helloWorld" target="blank_">
-                                <h3>Hello World</h3></a>
+                            <h3>Hello World</h3></a>
                             <p>JEST JavaScript testing</p>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- css exercises -->
-                <div class="css-section">
-                <div class="project-heading">CSS Exersises</div>
-                <div class="exercise-container">
+                <article class="css-section">
+                    <div class="project-heading">CSS Exersises</div>
+                        <div class="exercise-container">
 
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/03-grid-layout-3" target="blank_">
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/03-grid-layout-3" target="blank_">
                             <h3>Grid Layout 3</h3></a>
-                        <p>Responsive Holy grail Layout</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/02-grid-layout-2" target="blank_">
+                            <p>Responsive Holy grail Layout</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/02-grid-layout-2" target="blank_">
                             <h3>Grid Layout 2</h3></a>
-                        <p>Responsive grail mock up</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/01-grid-layout-1" target="blank_">
+                            <p>Responsive grail mock up</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/grid/01-grid-layout-1" target="blank_">
                             <h3>Grid Layout 1</h3></a>
-                        <p>Holy grail with grid</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/07-flex-layout-2" target="blank_">
+                            <p>Holy grail with grid</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/07-flex-layout-2" target="blank_">
                             <h3>Flex Layout 2</h3></a>
-                        <p>Holy grail with Flex</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/06-flex-layout" target="blank_">
+                            <p>Holy grail with Flex</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/06-flex-layout" target="blank_">
                             <h3>Flex Layout</h3></a>
-                        <p>An entire page!</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/06-flex-layout" target="blank_">
+                            <p>An entire page!</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/06-flex-layout" target="blank_">
                             <h3>Flex Modal</h3></a>
-                        <p>A common 'modal' style</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/04-flex-information" target="blank_">
+                            <p>A common 'modal' style</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/04-flex-information" target="blank_">
                             <h3>Flex Information</h3></a>
-                        <p>Very common website feature</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/03-flex-header-2" target="blank_">
+                            <p>Very common website feature</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/03-flex-header-2" target="blank_">
                             <h3>Flex Header 2</h3></a>
-                        <p>Another common header style</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/02-flex-header" target="blank_">
+                            <p>Another common header style</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/02-flex-header" target="blank_">
                             <h3>Flex Header 1</h3></a>
-                        <p>A Basic Header</p>
-                    </div>
-                    <hr>
-                    <div class="exercise-heading">
-                        <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/01-flex-center" target="blank_">
+                            <p>A Basic Header</p>
+                        </div>
+                        <hr>
+                        <div class="exercise-heading">
+                            <a href="https://github.com/curveservices/odin-project/tree/main/css_exercisess/flex/01-flex-center" target="blank_">
                             <h3>Flex Center</h3></a>
-                        <p>Center this Div</p>
+                            <p>Center this Div</p>
+                        </div>
                     </div>
-                </div>
+                </article>
             </div>
-        </div>
+           
     </div>
 </body>
 <footer class="footer">
-    Built by  
-    <a class="footer-link" href="https://github.com/curveservices" 
-    target="_blank"> Rozla-Dev</a>
-     | 
-    <a class="footer-link" href="https://github.com/curveservices/dashboard"
-    target="_blank" >Source </a><img class='footerImg' src="./assets/icons/github-mark.png" height="45px">
+    Built by <a class="footer-link" href="https://github.com/curveservices" target="_blank"> Rozla-Dev</a> | <a class="footer-link" href="https://github.com/curveservices/dashboard" target="_blank" >Source </a><img class='footerImg' src="./assets/icons/github-mark.png" height="45px">
 </footer>
 </html>
