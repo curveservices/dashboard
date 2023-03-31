@@ -33,13 +33,15 @@ Using only CSS grid for styling.
 ## Languages & Tools
 
 <!-- <img width="100" alt="Javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />  -->
-<img width="100" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /> <img width="100" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+<img width="100" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /> 
+<img width="100" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
           
 
 
-***[Rozla-Dev]("https://twitter.com/Crypto_Rozla") 26-02-2023***
+***<a href="https://twitter.com/Crypto_Rozla"> Rozla-Dev </a> 26-02-2023***
 
 
 [Back to top 👆](#project)
+
 
 
